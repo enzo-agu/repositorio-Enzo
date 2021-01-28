@@ -22,24 +22,8 @@ p {
   100% {
     opacity: 2; } }
 
-/*.rotacion__FotoVieira{
-   
-   transform: rotate(-5deg);
-}*/
 .seccion__FotoLucha--rotacion {
   transform: rotate(-4deg); }
-
-/*
-.rotacion__CinturonNegro{
-
-	transform: rotateX(40deg);
-}*/
-.navbar__FotoLogo--transicion {
-  transition: 3s; }
-
-.navbar__FotoLogo--transicion:hover {
-  width: 300px;
-  height: 150px; }
 
 .pagina__seccion {
   margin-top: 5rem;
@@ -50,6 +34,27 @@ p {
 
 .navbar__Imagen--ancho {
   width: 250px; }
+
+.navbar__FotoLogo--transicion {
+  transition: 3s; }
+
+.navbar__FotoLogo--transicion:hover {
+  width: 300px;
+  height: 150px; }
+
+.nav-link {
+  color: rgba(255, 255, 255, 0.7);
+  font-weight: 800; }
+
+.navbar-nav .nav-item.active .nav-link {
+  color: #e6a756; }
+
+#mainNav {
+  background-color: rgba(47, 23, 15, 0.9);
+  font-family: Raleway; }
+
+#mainNav .navbar-nav .nav-item .nav-link {
+  font-size: .9rem; }
 
 .footer {
   background-color: rgba(47, 23, 15, 0.9); }
@@ -77,9 +82,6 @@ p {
   font-weight: 100;
   line-height: 4rem; }
 
-/*
- .page__section{margin-top:5rem;margin-bottom:5rem}
-*/
 .section-heading {
   text-transform: uppercase; }
 
@@ -96,39 +98,16 @@ p {
 .bg-faded {
   background-color: rgba(255, 255, 255, 0.85); }
 
-#mainNav {
-  background-color: rgba(47, 23, 15, 0.9);
-  font-family: Raleway; }
-
-#mainNav .navbar-brand {
-  color: #e6a756; }
-
-#mainNav .navbar-nav .nav-item .nav-link {
-  color: rgba(255, 255, 255, 0.7);
-  font-weight: 800; }
-
-#mainNav .navbar-nav .nav-item.active .nav-link {
-  color: #e6a756; }
-
 @media (min-width: 992px) {
-  #mainNav .navbar-nav .nav-item .nav-link {
-    font-size: .9rem; }
-  #mainNav
-.navbar-nav .nav-item .nav-link:hover {
-    color: rgba(255, 255, 255, 0.4); }
-  #mainNav .navbar-nav .nav-item.active .nav-link:hover {
-    color: #e6a756; } }
-
-.btn-xl {
-  font-weight: 700;
-  font-size: .8rem;
-  padding-top: 1.5rem;
-  padding-bottom: 1.5rem;
-  padding-left: 2rem;
-  padding-right: 2rem; }
-
-.intro {
-  position: relative; }
+  .btn-xl {
+    font-weight: 700;
+    font-size: .8rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    padding-left: 2rem;
+    padding-right: 2rem; }
+  .intro {
+    position: relative; } }
 
 @media (min-width: 992px) {
   .intro .intro-img {
@@ -217,9 +196,6 @@ p {
 .address strong {
   font-size: 1.2rem; }
 
-/*
- .footer{background-color:rgba(47,23,15,.9)}
-*/
 .text-primary {
   color: #e6a756 !important; }
 
